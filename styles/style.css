@@ -82,22 +82,62 @@ body {
   margin-bottom: 35px;
 }
 
-/* Third Section starts here  */
-.third-section-container {
-  
+/* Third Section midnight party starts here */
+
+.midnight-party {
   margin: 0 auto;
-  background-image: url(../Assets/images/Vectorrr.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 1320px;
   height: 600px;
-  border: solid red;
-  margin-top: 420px;
-  margin-bottom: 50px;
+  background-image: url(../Assets/images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: solid 2px red; */
+  margin-top: 450px;
   display: flex;
 }
 
-.section-three-flex{
+.leftside-content {
+  width: 60%;
+  height: 600px;
+  /* border: 2px solid green; */
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.rightside-content {
+  width: 40%;
+  height: 600px;
+  /* border: 2px solid rgb(224, 210, 2); */
+  margin-top: 70px;
+  padding-left: 70px;
+  
+  
+}
+
+.leftside-content h1 {
+  font-size: 64px;
+  font-weight: 900;
+  padding: 0px 50px;
+}
+
+.leftside-content p {
+  font-family: Inter;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 25px;
+  padding: 0px 50px;
+}
+
+.btn {
+  margin-top: 25px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0px 85px;
 }
