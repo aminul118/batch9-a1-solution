@@ -46,15 +46,17 @@ body {
   font-weight: 400;
 }
 
-/* 65% Section starts here  */
+/* Second Section starts here  */
 
 .second-section-container {
   margin: 0 auto;
   margin-top: 100px;
   width: 802.9px;
   height: 500px;
-  border: solid red;
-  
+  /* border: solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .second-section-container h1 {
@@ -70,10 +72,32 @@ body {
   color: red;
   font-size: 24px;
   font-weight: 500;
+  margin-bottom: 30px;
 }
 
 .second-section-container h2 {
   font-family: Inter;
   font-size: 48px;
   font-weight: 700;
+  margin-bottom: 35px;
+}
+
+/* Third Section starts here  */
+.third-section-container {
+  
+  margin: 0 auto;
+  background-image: url(../Assets/images/Vectorrr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1320px;
+  height: 600px;
+  border: solid red;
+  margin-top: 420px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.section-three-flex{
+  display: flex;
 }
